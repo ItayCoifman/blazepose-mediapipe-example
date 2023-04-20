@@ -57,7 +57,7 @@ def landmark_2_array(landmarks):
     return markers_array, visibility_array
 
 
-def landmarks_2_table(landmarks, landmark_names=landmark_names, time_vec=None):
+def landmarks_2_table(landmarks, landmark_names = landmark_names, time_vec=None):
     """
       Convert a list of landmark objects to two pandas dataframes containing the
       x, y, and z coordinates of each key point for each frame, and the
