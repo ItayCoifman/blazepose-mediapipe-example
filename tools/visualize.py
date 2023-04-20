@@ -1,7 +1,7 @@
 import torch
 import cv2
 from tqdm import tqdm
-from Video import Video
+from video import Video
 
 def anotate_frame(img, boxes_ltwh, boxes_conf=None, boxes_class_ind=None, class_dict=None, conf_threshold=0, objects_index=None, device=None,bbox_color =(0, 0, 255)):
   """
