@@ -15,8 +15,8 @@ You can find an example of how to use this code in the `blazepose_simple_use_cas
 
 ### Option 1: Local Installation
 
-1. Clone this repository: `git clone https://github.com/[USERNAME]/[REPO_NAME].git`
-2. Navigate to the repository: `cd [REPO_NAME]`
+1. Clone this repository: `git clone https://github.com/ItayCoifman/blazepose-mediapipe-example.git`
+2. Navigate to the repository: `cd blazepose-mediapipe-example`
 3. Create a new virtual environment (optional): `python -m venv venv`
 4. Activate the virtual environment (optional): `source venv/bin/activate`
 5. Install the required packages: `pip install -r requirements.txt`
@@ -31,7 +31,7 @@ You can find an example of how to use this code in the `blazepose_simple_use_cas
    !pip install mediapipe
    ```
 
-3. Copy and paste the contents of `example.ipynb` into the notebook.
+3. Copy and paste the relevant contents of `Blazepose_simple_use_case_example` into the notebook.
 4. Upload your video file to the notebook (either through the Colab UI or by mounting Google Drive).
 5. Run the cells in the notebook to process the video and view the results.
 
